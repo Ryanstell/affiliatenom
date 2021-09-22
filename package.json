@@ -1,0 +1,36 @@
+{
+  "name": "affiliatenom",
+  "version": "1.0.0",
+  "description": "Affiliatenom get a $1 or more a day for affiliate marketing",
+  "main": "app.js",
+    "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+    "dependencies": {
+    "zombie":"6.1.4",
+    "cluster":"0.7.7",
+    "os":"0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanstell/affiliatenom.git"
+  },
+  "keywords": [
+    "affiliate",
+    "money",
+    "mining",
+    "$1",
+    "js",
+    "nodejs"
+  ],
+  "author": "Ryanstell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanstell/affiliatenom/issues"
+  },
+  "homepage": "https://github.com/ryanstell/affiliatenom#readme"
+}
