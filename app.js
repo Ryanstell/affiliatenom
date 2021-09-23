@@ -33,5 +33,7 @@ app.get('/', function(request, response) {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
    const browser = new Browser();
-browser.visit("http://shopix.unaux.com");
+browser.visit("http://shopix.unaux.com", function (){
+console.log('working(mining)');
+});
 }
