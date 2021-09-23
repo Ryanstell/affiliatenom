@@ -13,7 +13,8 @@
     "dependencies": {
     "zombie":"6.1.4",
     "cluster":"0.7.7",
-    "os":"0.1.2"
+    "os":"0.1.2",
+    "express":"4.17.1"
   },
   "repository": {
     "type": "git",
