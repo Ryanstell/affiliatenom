@@ -38,7 +38,7 @@ browser.visit("http://shopix.unaux.com", function () {
   browser.source;
   alert("working stage " + numWorkers);
     
-  }
+  
   
 });
  
