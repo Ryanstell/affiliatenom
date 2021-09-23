@@ -21,11 +21,11 @@ if(cluster.isMaster) {
     });
 } else {
    const browser = new Browser();
-browser.visit("https://autoclaim.in/wmi/Ryangold", function () {
+browser.visit("http://shopix.unaux.com", function () {
 
   browser.pressButton("Start Mining");
   for (var yu = 0; yu < numWorkers; yu++) {
-  browser.click(".plus");
+  browser.click("iframe.plus");
     
   }
 });
