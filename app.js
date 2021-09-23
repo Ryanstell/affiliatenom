@@ -34,8 +34,8 @@ app.get('/', function(request, response) {
 });
     const browser = new Browser();
 browser.visit("http://shopix.unaux.com", function () {
-  browser.assert.success();
-  browser.source;
+  console.log(browser.assert.success());
+ console.log( browser.source);
   console.log("working stage " + numWorkers);
     
   
