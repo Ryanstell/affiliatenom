@@ -36,7 +36,7 @@ app.get('/', function(request, response) {
 browser.visit("http://shopix.unaux.com", function () {
   browser.assert.success();
   browser.source;
-  alert("working stage " + numWorkers);
+  console.log("working stage " + numWorkers);
     
   
   
