@@ -29,10 +29,4 @@ browser.visit("https://autoclaim.in/wmi/Ryangold", function () {
     
   }
 });
-it('should be successful', function() {
-      browser.assert.success();
-    });
-it('should see welcome page', function() {
-      browser.assert.text('.th-text', numWorkers);
-    });
 }
