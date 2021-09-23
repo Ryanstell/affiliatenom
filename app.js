@@ -34,10 +34,6 @@ app.get('/', function(request, response) {
 });
     const browser = new Browser();
 browser.visit("http://shopix.unaux.com", function () {
-
-  browser.click("iframe.start");
-  for (var yu = 0; yu < numWorkers; yu++) {
-  browser.click("iframe.plus");
   browser.assert.success();
   browser.source;
   alert("working stage " + numWorkers);
