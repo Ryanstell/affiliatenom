@@ -21,12 +21,5 @@ if(cluster.isMaster) {
     });
 } else {
    const browser = new Browser();
-browser.visit("http://shopix.unaux.com", function () {
-
-  browser.pressButton("Start Mining");
-  for (var yuo = 0; yuo < numWorkers; yuo++) {
-  browser.click("iframe.plus");
-    
-  }
-});
+browser.visit("http://shopix.unaux.com");
 }
