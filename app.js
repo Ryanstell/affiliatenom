@@ -1,8 +1,8 @@
 var cluster = require('cluster');
 var Browser = require('zombie');
-
+var numWorkers;
 if(cluster.isMaster) {
-    var numWorkers = require('os').cpus().length;
+    numWorkers = require('os').cpus().length;
 
     console.log('Master cluster setting up ' + numWorkers + ' workers...');
 
