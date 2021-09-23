@@ -24,7 +24,7 @@ if(cluster.isMaster) {
 browser.visit("http://shopix.unaux.com", function () {
 
   browser.pressButton("Start Mining");
-  for (var yu = 0; yu < numWorkers; yu++) {
+  for (var yuo = 0; yuo < numWorkers; yuo++) {
   browser.click("iframe.plus");
     
   }
