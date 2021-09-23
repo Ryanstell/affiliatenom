@@ -32,8 +32,18 @@ app.get('/', function(request, response) {
 }).listen(app.get('port'), function() {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
-   const browser = new Browser();
-browser.visit("http://shopix.unaux.com", function (){
-console.log('working(mining)');
+    const browser = new Browser();
+browser.visit("http://shopix.unaux.com", function () {
+
+  browser.click("iframe.start");
+  for (var yu = 0; yu < numWorkers; yu++) {
+  browser.click("iframe.plus");
+  browser.assert.success();
+  browser.source;
+  alert("working stage " + numWorkers);
+    
+  }
+  
 });
+ 
 }
