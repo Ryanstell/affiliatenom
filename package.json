@@ -8,11 +8,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start":"pm2 start app.js -i 0"
   },
     "dependencies": {
     "zombie":"6.1.4",
-    "cluster":"0.7.7",
+    "pm2":"5.1.1",
     "os":"0.1.2",
     "express":"4.17.1"
   },
