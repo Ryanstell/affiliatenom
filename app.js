@@ -22,4 +22,3 @@ browser.visit("http://shopix.unaux.com", function () {
   
 });
  
-}
