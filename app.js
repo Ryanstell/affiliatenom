@@ -1,7 +1,7 @@
 
 var Browser = require('zombie');
-var express = require('express');
-var app     = express();
+var Express = require('express');
+var app     = Express();
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -14,11 +14,6 @@ app.get('/', function(request, response) {
 });
     const browser = new Browser();
 browser.visit("http://shopix.unaux.com", function () {
-  console.log(browser.assert.success());
- console.log( browser.source);
   console.log('working');
-    
-  
-  
 });
  
